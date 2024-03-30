@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designluch</title>
+    <link href="./style.css" rel="stylesheet" />
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fonts awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-oZb78z52qnZ7tZ4wU3tF5rGcOy1lLLBge/aqhmSd6YFqJqHkGzNfNTsZelVJvZ1h"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <img class="header__logo" src="./assets/svg/Logo.svg" alt="logo" />
+        <div class="header__nav-wrap">
+          <nav class="header__navbar" id="navbar">
+            <a class="header__nav-link" href="#about">About</a>
+            <a class="header__nav-link" href="#features">Features</a>
+            <a class="header__nav-link" href="#feedback">Feedback</a>
+            <a class="header__nav-link" href="#pricing">Pricing</a>
+            <a class="header__nav-link" href="#demo">Demo</a>
+            <button class="header__btn btn" id="signup-btn">Sign Up</button>
+          </nav>
+          <button class="header__btn-burger btn" id="burgerMenu">☰</button>
+          <button class="header__btn-close btn" id="closeMenu">×</button>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main__wrapper">
+          <h1 class="main__title">
+            Coding fascinates us. <br />However, imagine there also being <br />
+            an AI to assist with your coding?
+          </h1>
+          <p class="main__subtitle">
+            Transform your code into no-code while ensuring it's clean-code,
+            making it comprehensible to others. <br />
+            Sounds straightforward, doesn't it? Meet Glitty, the AI-Driven
+            Coding Platform.
+          </p>
+          <div class="main__btn-wrap">
+            <button class="main__btn-color btn">Get Started</button>
+            <button class="main__btn-transparent btn">Watch a demo</button>
+          </div>
+        </div>
+        <div class="main__clients-wrap">
+          <img src="./assets/svg/AriseHealth.svg" alt="arise health logo" />
+          <img src="./assets/svg/Ephicient.svg" alt="ephicient logo" />
+          <img src="./assets/svg/2020INC.svg" alt="inc logo" />
+          <img src="./assets/svg/ThePaak.svg" alt="the paak logo" />
+          <img src="./assets/svg/Pipelinx.svg" alt="pipelinx logo" />
+          <img src="./assets/svg/Together.svg" alt="together logo" />
+        </div>
+        <div class="wrapper">
+          <div class="tools">
+            <div class="tools__text-wrap">
+              <h1 class="tools__title">
+                Unlike any coding tool <br />you've ever encountered
+              </h1>
+              <p class="tools__subtitle">
+                Actually, we're not so different from other coding platforms.
+                <br />But with AI, do you catch our drift? Exactly, that's the
+                point.
+              </p>
+            </div>
+            <div class="tools__boxes">
+              <div class="tools__aifriend">
+                <div class="tools__box-screen">
+                  <div class="component">
+                    <div class="circle red"></div>
+                    <div class="circle yellow"></div>
+                    <div class="circle green"></div>
+                  </div>
+                  <div class="tools__user-wrap">
+                    <div class="tools__user-avatar"></div>
+                    <p class="tools__user-speech">
+                      Can you make this code more simple?
+                    </p>
+                  </div>
+                  <div class="tools__ai-wrap">
+                    <div class="tools__ai-avatar"></div>
+                    <p class="tools__ai-speech">
+                      Sure! Here you go, a simpler code <br />
+                      for your app!
+                    </p>
+                  </div>
+                  <div class="tools__code-snippet"></div>
+                </div>
+
+                <div class="tools__box-card-wrap">
+                  <h2 class="tools__box-card-title">
+                    Let AI do the work my friend
+                  </h2>
+                  <p class="tools__box-card-subtitle">
+                    Write a prompt, hit enter, and let AI do the heavy lifting.
+                    <br />
+                    Having an AI tool built into, allows you to quickly and
+                    easily generate the exact code you need for your project.
+                  </p>
+                </div>
+              </div>
+
+              <div class="tools__teamwork">
+                <div class="tools__teams">
+                  <div class="tools__box-screen">
+                    <div class="tools__project-wrap">
+                      <div class="tools__project-info">
+                        <img
+                          src="./assets/png/icon.png"
+                          alt="umbrella icon"
+                          class="avatar"
+                        />
+                        <p class="tools__project-name">Project Umbrella</p>
+                      </div>
+                      <hr class="tools__hr" />
+                      <div class="tools__team-info">
+                        <div class="avatars-container">
+                          <img
+                            src="./assets/jpeg/cat.jpeg"
+                            alt="Avatar 1"
+                            class="avatar"
+                          />
+                          <img
+                            src="./assets/jpeg/cat.jpeg"
+                            alt="Avatar 2"
+                            class="avatar"
+                          />
+                          <img
+                            src="./assets/jpeg/cat.jpeg"
+                            alt="Avatar 3"
+                            class="avatar"
+                          />
+                        </div>
+                        <p class="tools__text">12 people in this project</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tools__project-wrap box">
+                  <div class="tools__project-info">
+                    <img
+                      src="./assets/png/icon.png"
+                      alt="umbrella icon"
+                      class="avatar"
+                    />
+                    <p class="tools__project-name">Finance Wallet Project</p>
+                  </div>
+                  <hr class="tools__hr" />
+                  <div class="tools__team-info">
+                    <div class="avatars-container">
+                      <img
+                        src="./assets/jpeg/cat.jpeg"
+                        alt="Avatar 1"
+                        class="avatar"
+                      />
+                      <img
+                        src="./assets/jpeg/cat.jpeg"
+                        alt="Avatar 2"
+                        class="avatar"
+                      />
+                      <img
+                        src="./assets/jpeg/cat.jpeg"
+                        alt="Avatar 3"
+                        class="avatar"
+                      />
+                    </div>
+                    <p class="tools__text">16 people in this project</p>
+                  </div>
+                </div>
+                <div class="tools__box-card-wrap">
+                  <h2 class="tools__box-card-title">
+                    Reduce development time by <br />
+                    working with your team
+                  </h2>
+                  <p class="tools__box-card-subtitle">
+                    Develop faster without being restricted. Work with multiple
+                    people <br />
+                    on the same project at the same time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tools tools2">
+            <div class="tools__boxes">
+              <div class="tools__teamwork">
+                <div class="tools__teams">
+                  <div class="tools__box-screen">
+                    <div class="tools__project-wrap">
+                      <div class="tools__project-info tools2__project-info">
+                        <div class="col">
+                          <p class="tools__project-name tools2__project-name">
+                            file-name.jsx
+                          </p>
+                          <p class="tools__text">Saved 32 seconds ago</p>
+                        </div>
+                        <button class="main__btn-color btn btn-tools">
+                          Get Started
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tools__project-wrap box">
+                  <div class="tools__project-info-col">
+                    <p class="tools__project-name">Scripts</p>
+                    <p class="tools__text text-top">
+                      Add this script to your page or project footer code. It
+                      will <br />
+                      load your production script on your custom domain.
+                    </p>
+                  </div>
+
+                  <div class="tools__team-info-border tib">
+                    <p class="tools__text text-overflow">
+                      Glitty.app/123 -- script src=”defer.your_domain”
+                    </p>
+                    <button class="tools__copy-btn">
+                      <i class="fa-regular fa-copy"></i>Copy
+                    </button>
+                  </div>
+                  <hr class="hr2" />
+                  <p class="tools__text production">Production script</p>
+                  <div class="tools__team-info-border tib">
+                    <p class="tools__text text-overflow">
+                      Glitty.app/123 -- script src=”defer.your_domain”
+                    </p>
+                    <button class="tools__copy-btn">
+                      <i class="fa-regular fa-copy"></i>Copy
+                    </button>
+                  </div>
+                </div>
+                <div class="tools__box-card-wrap">
+                  <h2 class="tools__box-card-title">
+                    Publish to staging or production
+                  </h2>
+                  <p class="tools__box-card-subtitle">
+                    Not yet ready to publish the code to your actual website?
+                    Then <br />
+                    publish it to staging only using the staging script with
+                    Glitty. Your <br />
+                    production Javascript file will always be available 👍🏻
+                  </p>
+                </div>
+              </div>
+
+              <div class="tools__teamwork">
+                <div class="tools__teams">
+                  <div class="tools__box-screen">
+                    <div class="tools__project-wrap nopadding">
+                      <div class="tools__project-info between mt">
+                        <div class="tools__icon-wrap">
+                          <img
+                            src="./assets/png/icon.png"
+                            alt="star icon"
+                            class="avatar noleft"
+                          />
+                          <p class="tools__project-name margin0">Library</p>
+                        </div>
+                        <p class="tools__plus">+</p>
+                      </div>
+                      <hr class="tools__hr" />
+
+                      <div class="tools__project-info between">
+                        <div class="tools__icon-wrap">
+                          <p class="tools__project-name margin0">
+                            Create Vue App
+                          </p>
+                        </div>
+                        <p class="tools__arrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </p>
+                      </div>
+                      <hr class="tools__hr" />
+                      <div class="tools__project-info between">
+                        <div class="tools__icon-wrap">
+                          <p class="tools__project-name margin0">
+                            Create Vue App
+                          </p>
+                        </div>
+                        <p class="tools__arrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </p>
+                      </div>
+                      <hr class="tools__hr" />
+                      <div class="tools__project-info between">
+                        <div class="tools__icon-wrap">
+                          <p class="tools__project-name margin0">
+                            Create Vue App
+                          </p>
+                        </div>
+                        <p class="tools__arrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </p>
+                      </div>
+                      <hr class="tools__hr" />
+                      <div class="tools__project-info between">
+                        <div class="tools__icon-wrap">
+                          <p class="tools__project-name margin0">
+                            Create Vue App
+                          </p>
+                        </div>
+                        <p class="tools__arrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </p>
+                      </div>
+                      <hr class="tools__hr" />
+                    </div>
+                  </div>
+                </div>
+                <div class="tools__box-card-wrap">
+                  <h2 class="tools__box-card-title">Code Library</h2>
+                  <p class="tools__box-card-subtitle">
+                    Save your favorite code solutions for easy reuse. Drag and
+                    drop code you have saved into any of your projects.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback">
+          <div class="feedback__text-wrap">
+            <h1 class="feedback__title">
+              We are building AI with feedback <br />
+              from the best devs in the world
+            </h1>
+          </div>
+
+          <div class="feedback__wrapper">
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Excellent conversation. Very practical, logical and motivating
+                  info. Thanks for your time Kosta!
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Black, Marvin</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Eden is recommendable! Very friendly and accurate She brought
+                  me a lot of value in a short...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Flores, Juanita</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Peter was amazing! He shared wonderful tips, made the most out
+                  of our call, he was very attentive and...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Cooper, Kristin</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Craig was awesome. He asked great discovery questions and took
+                  time to understand my challenges...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Miles, Esther</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Great mentorship, we had really common topics on our ways of
+                  working. He gave me pretty nice...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Henry, Arthur</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Superb, invaluable advice from Barbara. The point-of-view
+                  statements are a lifesaver. Highly reccomend...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Nguyen, Shane</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Parikshit it honestly one of my favorite grown mentors. He is
+                  a wealth of knowledge...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Daniel Manhattan</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Had an excellent call with Austin. He gave me a lot of ideas
+                  to test to improve my content. As a res...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Daniel Manhattan</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feedback__card">
+              <div class="feedback__card-wrap">
+                <p class="feedback__card-title">
+                  Kosta was fantastic to speak with and really helped me adjust
+                  my mindset and get out of my...
+                </p>
+                <div class="feedback__icon-wrap">
+                  <img
+                    src="./assets/png/icon.png"
+                    alt="star icon"
+                    class="avatar noleft"
+                  />
+                  <div class="feedback__user-wrap">
+                    <p class="feedback__user-name margin0">Daniel Manhattan</p>
+                    <p class="tools__text margin0">@dani_dev</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pricing">
+          <div class="pricing__text-wrap">
+            <h1 class="pricing__title">We couldn’t build this without you</h1>
+          </div>
+
+          <div class="pricing__boards">
+            <div class="pricing__card">
+              <div class="feedback__card-wrap border">
+                <div class="pricing__text-wrap margin0">
+                  <p class="tools__text margin0">Playground</p>
+                  <h2 class="feedback__user-name margin0">Free for everyone</h2>
+                </div>
+                <hr class="hr2" />
+                <div class="pricing__text-wrap">
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> Unlimited Members
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> 2 Collaboration Project
+                    Team
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> 100 AI Messages (GPT
+                    3.5)
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> Individual Space
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> Global Library
+                  </p>
+                </div>
+
+                <button class="main__btn-transparent btn width">
+                  Watch a demo
+                </button>
+              </div>
+            </div>
+
+            <div class="pricing__card">
+              <div class="feedback__card-wrap border blue">
+                <div class="pricing__text-wrap margin0">
+                  <p class="tools__text margin0">Workspace</p>
+                  <h2 class="feedback__user-name margin0">$7 / month</h2>
+                </div>
+                <hr class="hr2" />
+                <div class="pricing__text-wrap">
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> Unlimited Project Team
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> Unlimited AI Messages
+                    (GPT 3.5)
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> Team Space
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> All Integrations, APIs,
+                    webhooks
+                  </p>
+                  <p class="feedback__user-name margin0">
+                    <i class="fas fa-check-circle"></i> Priority support
+                  </p>
+                </div>
+
+                <button class="main__btn-color btn width">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="features__text-wrap">
+            <h1 class="features__heading">
+              Features like collaboration,<br />
+              code explainers and more
+            </h1>
+            <p class="features__text">
+              Whether you're part of a team or an individual, Glitty helps you
+              supercharge your code seamlessly.
+            </p>
+            <div class="main__btn-wrap gap">
+              <button class="main__btn-color btn">Get Started</button>
+              <button class="main__btn-transparent btn">Watch a demo</button>
+            </div>
+          </div>
+          <img
+            src="./assets/png/smile.png"
+            alt="smile image"
+            class="features__img"
+          />
+        </div>
+      </main>
+
+      <hr class="hr3" />
+      <footer class="footer">
+        <div class="footer__wrapper">
+          <img
+            src="./assets/svg/Logo.svg"
+            alt="logo image"
+            class="footer__logo"
+          />
+          <div class="footer__col-links">
+            <div class="footer__company">
+              <p class="footer__name">Company</p>
+              <a href="#" class="footer__link">How it works</a>
+              <a href="#" class="footer__link">Pricing</a>
+              <a href="#" class="footer__link">Demo</a>
+            </div>
+            <div class="footer__resources">
+              <p class="footer__name">Resources</p>
+              <a href="#" class="footer__link">Blog post name goes here</a>
+              <a href="#" class="footer__link">Blog post name goes here</a>
+              <a href="#" class="footer__link">See all resources</a>
+            </div>
+            <div class="footer__about">
+              <p class="footer__name">About</p>
+              <a href="#" class="footer__link">Terms & Conditions</a>
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+        <p class="footer__copyright">Copyright © 2024 Designluch</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
